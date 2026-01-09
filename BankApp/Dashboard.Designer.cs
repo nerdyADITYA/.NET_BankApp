@@ -29,28 +29,29 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges29 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges30 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges27 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges28 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle7 = new DataGridViewCellStyle();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges31 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges32 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges33 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges34 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges35 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges36 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             pictureBox6 = new PictureBox();
             LogoutBtn = new Guna.UI2.WinForms.Guna2Button();
@@ -68,7 +69,7 @@
             guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(components);
             guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(components);
             guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(components);
-            label2 = new Label();
+            UserNameLbl = new Label();
             label3 = new Label();
             panel2 = new Panel();
             label12 = new Label();
@@ -85,21 +86,21 @@
             guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(components);
             panel3 = new Panel();
             panel4 = new Panel();
-            label6 = new Label();
-            label5 = new Label();
+            AcNumberLbl = new Label();
+            AmountLbl = new Label();
             label4 = new Label();
             pictureBox7 = new PictureBox();
             guna2Elipse5 = new Guna.UI2.WinForms.Guna2Elipse(components);
             guna2Elipse6 = new Guna.UI2.WinForms.Guna2Elipse(components);
             label14 = new Label();
-            guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
+            TransactionTbl = new Guna.UI2.WinForms.Guna2DataGridView();
             label15 = new Label();
-            guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
+            AccountCb = new Guna.UI2.WinForms.Guna2ComboBox();
             label16 = new Label();
-            guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            AmountTb = new Guna.UI2.WinForms.Guna2TextBox();
             label17 = new Label();
-            textBox1 = new TextBox();
-            guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
+            MessageTb = new TextBox();
+            TransferBtn = new Guna.UI2.WinForms.Guna2Button();
             guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
@@ -112,7 +113,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
             panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)guna2DataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)TransactionTbl).BeginInit();
             SuspendLayout();
             // 
             // guna2Panel1
@@ -131,10 +132,10 @@
             guna2Panel1.Controls.Add(guna2Button1);
             guna2Panel1.Controls.Add(label1);
             guna2Panel1.Controls.Add(pictureBox1);
-            guna2Panel1.CustomizableEdges = customizableEdges11;
+            guna2Panel1.CustomizableEdges = customizableEdges29;
             guna2Panel1.Location = new Point(12, 12);
             guna2Panel1.Name = "guna2Panel1";
-            guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges30;
             guna2Panel1.Size = new Size(234, 709);
             guna2Panel1.TabIndex = 0;
             // 
@@ -151,7 +152,7 @@
             // 
             // LogoutBtn
             // 
-            LogoutBtn.CustomizableEdges = customizableEdges1;
+            LogoutBtn.CustomizableEdges = customizableEdges19;
             LogoutBtn.DisabledState.BorderColor = Color.DarkGray;
             LogoutBtn.DisabledState.CustomBorderColor = Color.DarkGray;
             LogoutBtn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -161,7 +162,7 @@
             LogoutBtn.ForeColor = Color.White;
             LogoutBtn.Location = new Point(13, 614);
             LogoutBtn.Name = "LogoutBtn";
-            LogoutBtn.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            LogoutBtn.ShadowDecoration.CustomizableEdges = customizableEdges20;
             LogoutBtn.Size = new Size(208, 50);
             LogoutBtn.TabIndex = 13;
             LogoutBtn.Text = "Logout";
@@ -181,7 +182,7 @@
             // 
             // guna2Button4
             // 
-            guna2Button4.CustomizableEdges = customizableEdges3;
+            guna2Button4.CustomizableEdges = customizableEdges21;
             guna2Button4.DisabledState.BorderColor = Color.DarkGray;
             guna2Button4.DisabledState.CustomBorderColor = Color.DarkGray;
             guna2Button4.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -191,7 +192,7 @@
             guna2Button4.ForeColor = Color.White;
             guna2Button4.Location = new Point(13, 519);
             guna2Button4.Name = "guna2Button4";
-            guna2Button4.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            guna2Button4.ShadowDecoration.CustomizableEdges = customizableEdges22;
             guna2Button4.Size = new Size(208, 50);
             guna2Button4.TabIndex = 11;
             guna2Button4.Text = "My Profile";
@@ -217,7 +218,7 @@
             // 
             // guna2Button3
             // 
-            guna2Button3.CustomizableEdges = customizableEdges5;
+            guna2Button3.CustomizableEdges = customizableEdges23;
             guna2Button3.DisabledState.BorderColor = Color.DarkGray;
             guna2Button3.DisabledState.CustomBorderColor = Color.DarkGray;
             guna2Button3.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -227,7 +228,7 @@
             guna2Button3.ForeColor = Color.Teal;
             guna2Button3.Location = new Point(14, 372);
             guna2Button3.Name = "guna2Button3";
-            guna2Button3.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            guna2Button3.ShadowDecoration.CustomizableEdges = customizableEdges24;
             guna2Button3.Size = new Size(208, 50);
             guna2Button3.TabIndex = 8;
             guna2Button3.Text = "My Accounts";
@@ -245,7 +246,7 @@
             // 
             // guna2Button2
             // 
-            guna2Button2.CustomizableEdges = customizableEdges7;
+            guna2Button2.CustomizableEdges = customizableEdges25;
             guna2Button2.DisabledState.BorderColor = Color.DarkGray;
             guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray;
             guna2Button2.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -255,7 +256,7 @@
             guna2Button2.ForeColor = Color.Teal;
             guna2Button2.Location = new Point(14, 300);
             guna2Button2.Name = "guna2Button2";
-            guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges26;
             guna2Button2.Size = new Size(208, 50);
             guna2Button2.TabIndex = 6;
             guna2Button2.Text = "My Transactions";
@@ -273,7 +274,7 @@
             // 
             // guna2Button1
             // 
-            guna2Button1.CustomizableEdges = customizableEdges9;
+            guna2Button1.CustomizableEdges = customizableEdges27;
             guna2Button1.DisabledState.BorderColor = Color.DarkGray;
             guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray;
             guna2Button1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -283,7 +284,7 @@
             guna2Button1.ForeColor = Color.Teal;
             guna2Button1.Location = new Point(14, 223);
             guna2Button1.Name = "guna2Button1";
-            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges28;
             guna2Button1.Size = new Size(208, 50);
             guna2Button1.TabIndex = 4;
             guna2Button1.Text = "Dashboard";
@@ -325,16 +326,16 @@
             guna2Elipse3.BorderRadius = 30;
             guna2Elipse3.TargetControl = LogoutBtn;
             // 
-            // label2
+            // UserNameLbl
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Century Gothic", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.ForeColor = Color.FromArgb(0, 64, 64);
-            label2.Location = new Point(281, 21);
-            label2.Name = "label2";
-            label2.Size = new Size(248, 34);
-            label2.TabIndex = 15;
-            label2.Text = "Hello, User Name";
+            UserNameLbl.AutoSize = true;
+            UserNameLbl.Font = new Font("Century Gothic", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            UserNameLbl.ForeColor = Color.FromArgb(0, 64, 64);
+            UserNameLbl.Location = new Point(281, 21);
+            UserNameLbl.Name = "UserNameLbl";
+            UserNameLbl.Size = new Size(248, 34);
+            UserNameLbl.TabIndex = 15;
+            UserNameLbl.Text = "Hello, User Name";
             // 
             // label3
             // 
@@ -366,27 +367,27 @@
             label12.AutoSize = true;
             label12.Font = new Font("Century Gothic", 10F, FontStyle.Bold);
             label12.ForeColor = Color.Red;
-            label12.Location = new Point(658, 162);
+            label12.Location = new Point(658, 149);
             label12.Name = "label12";
-            label12.Size = new Size(94, 19);
+            label12.Size = new Size(80, 19);
             label12.TabIndex = 21;
-            label12.Text = "- Rs 37575";
+            label12.Text = "- ₹37575";
             // 
             // label13
             // 
             label13.AutoSize = true;
             label13.Font = new Font("Century Gothic", 10F, FontStyle.Bold);
             label13.ForeColor = Color.Black;
-            label13.Location = new Point(658, 122);
+            label13.Location = new Point(658, 114);
             label13.Name = "label13";
-            label13.Size = new Size(81, 19);
+            label13.Size = new Size(139, 19);
             label13.TabIndex = 20;
-            label13.Text = "Incomes";
+            label13.Text = "Sent / Expenses";
             // 
             // panel7
             // 
             panel7.BackColor = Color.Teal;
-            panel7.Location = new Point(658, 104);
+            panel7.Location = new Point(658, 95);
             panel7.Name = "panel7";
             panel7.Size = new Size(200, 5);
             panel7.TabIndex = 11;
@@ -396,11 +397,11 @@
             label11.AutoSize = true;
             label11.Font = new Font("Century Gothic", 10F, FontStyle.Bold);
             label11.ForeColor = Color.Green;
-            label11.Location = new Point(658, 67);
+            label11.Location = new Point(658, 61);
             label11.Name = "label11";
-            label11.Size = new Size(127, 19);
+            label11.Size = new Size(113, 19);
             label11.TabIndex = 19;
-            label11.Text = "+ Rs 12345678";
+            label11.Text = "+ ₹12345678";
             // 
             // label10
             // 
@@ -487,8 +488,8 @@
             // 
             panel3.BackColor = Color.FromArgb(9, 107, 104);
             panel3.Controls.Add(panel4);
-            panel3.Controls.Add(label6);
-            panel3.Controls.Add(label5);
+            panel3.Controls.Add(AcNumberLbl);
+            panel3.Controls.Add(AmountLbl);
             panel3.Controls.Add(label4);
             panel3.Controls.Add(pictureBox7);
             panel3.Location = new Point(300, 125);
@@ -504,27 +505,27 @@
             panel4.Size = new Size(52, 98);
             panel4.TabIndex = 18;
             // 
-            // label6
+            // AcNumberLbl
             // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Century Gothic", 12F, FontStyle.Bold);
-            label6.ForeColor = Color.White;
-            label6.Location = new Point(12, 122);
-            label6.Name = "label6";
-            label6.Size = new Size(198, 23);
-            label6.TabIndex = 20;
-            label6.Text = "****  ****  ****  1234";
+            AcNumberLbl.AutoSize = true;
+            AcNumberLbl.Font = new Font("Century Gothic", 12F, FontStyle.Bold);
+            AcNumberLbl.ForeColor = Color.White;
+            AcNumberLbl.Location = new Point(12, 122);
+            AcNumberLbl.Name = "AcNumberLbl";
+            AcNumberLbl.Size = new Size(198, 23);
+            AcNumberLbl.TabIndex = 20;
+            AcNumberLbl.Text = "****  ****  ****  1234";
             // 
-            // label5
+            // AmountLbl
             // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Century Gothic", 12F, FontStyle.Bold);
-            label5.ForeColor = Color.White;
-            label5.Location = new Point(12, 72);
-            label5.Name = "label5";
-            label5.Size = new Size(143, 23);
-            label5.TabIndex = 19;
-            label5.Text = "Amount in Rs.";
+            AmountLbl.AutoSize = true;
+            AmountLbl.Font = new Font("Century Gothic", 12F, FontStyle.Bold);
+            AmountLbl.ForeColor = Color.White;
+            AmountLbl.Location = new Point(12, 72);
+            AmountLbl.Name = "AmountLbl";
+            AmountLbl.Size = new Size(143, 23);
+            AmountLbl.TabIndex = 19;
+            AmountLbl.Text = "Amount in Rs.";
             // 
             // label4
             // 
@@ -569,56 +570,71 @@
             label14.TabIndex = 18;
             label14.Text = "Latest Transaction";
             // 
-            // guna2DataGridView1
+            // TransactionTbl
             // 
-            dataGridViewCellStyle1.BackColor = Color.White;
-            guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = Color.FromArgb(100, 88, 255);
-            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle2.ForeColor = Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
-            guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            guna2DataGridView1.ColumnHeadersHeight = 4;
-            guna2DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = Color.White;
-            dataGridViewCellStyle3.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle3.ForeColor = Color.FromArgb(71, 69, 94);
-            dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(231, 229, 255);
-            dataGridViewCellStyle3.SelectionForeColor = Color.FromArgb(71, 69, 94);
-            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
-            guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
-            guna2DataGridView1.GridColor = Color.FromArgb(231, 229, 255);
-            guna2DataGridView1.Location = new Point(285, 369);
-            guna2DataGridView1.Name = "guna2DataGridView1";
-            guna2DataGridView1.RowHeadersVisible = false;
-            guna2DataGridView1.RowHeadersWidth = 51;
-            guna2DataGridView1.Size = new Size(641, 352);
-            guna2DataGridView1.TabIndex = 19;
-            guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
-            guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
-            guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty;
-            guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty;
-            guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty;
-            guna2DataGridView1.ThemeStyle.BackColor = Color.White;
-            guna2DataGridView1.ThemeStyle.GridColor = Color.FromArgb(231, 229, 255);
-            guna2DataGridView1.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(100, 88, 255);
-            guna2DataGridView1.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None;
-            guna2DataGridView1.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 9F);
-            guna2DataGridView1.ThemeStyle.HeaderStyle.ForeColor = Color.White;
-            guna2DataGridView1.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            guna2DataGridView1.ThemeStyle.HeaderStyle.Height = 4;
-            guna2DataGridView1.ThemeStyle.ReadOnly = false;
-            guna2DataGridView1.ThemeStyle.RowsStyle.BackColor = Color.White;
-            guna2DataGridView1.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
-            guna2DataGridView1.ThemeStyle.RowsStyle.Font = new Font("Segoe UI", 9F);
-            guna2DataGridView1.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(71, 69, 94);
-            guna2DataGridView1.ThemeStyle.RowsStyle.Height = 29;
-            guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
-            guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            TransactionTbl.AllowUserToResizeRows = false;
+            dataGridViewCellStyle4.BackColor = Color.White;
+            dataGridViewCellStyle4.Font = new Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle4.ForeColor = SystemColors.ControlText;
+            dataGridViewCellStyle4.SelectionBackColor = Color.Silver;
+            dataGridViewCellStyle4.SelectionForeColor = Color.Black;
+            TransactionTbl.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            TransactionTbl.CellBorderStyle = DataGridViewCellBorderStyle.None;
+            dataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = Color.FromArgb(100, 88, 255);
+            dataGridViewCellStyle5.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle5.ForeColor = Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = Color.FromArgb(100, 88, 255);
+            dataGridViewCellStyle5.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = DataGridViewTriState.True;
+            TransactionTbl.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            TransactionTbl.ColumnHeadersHeight = 40;
+            TransactionTbl.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            dataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = Color.White;
+            dataGridViewCellStyle6.Font = new Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle6.ForeColor = Color.Black;
+            dataGridViewCellStyle6.SelectionBackColor = Color.Silver;
+            dataGridViewCellStyle6.SelectionForeColor = Color.Black;
+            dataGridViewCellStyle6.WrapMode = DataGridViewTriState.False;
+            TransactionTbl.DefaultCellStyle = dataGridViewCellStyle6;
+            TransactionTbl.GridColor = Color.FromArgb(231, 229, 255);
+            TransactionTbl.Location = new Point(285, 369);
+            TransactionTbl.Name = "TransactionTbl";
+            TransactionTbl.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle7.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = Color.White;
+            dataGridViewCellStyle7.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle7.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle7.SelectionBackColor = Color.White;
+            dataGridViewCellStyle7.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = DataGridViewTriState.True;
+            TransactionTbl.RowHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            TransactionTbl.RowHeadersVisible = false;
+            TransactionTbl.RowHeadersWidth = 51;
+            TransactionTbl.Size = new Size(641, 352);
+            TransactionTbl.TabIndex = 19;
+            TransactionTbl.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
+            TransactionTbl.ThemeStyle.AlternatingRowsStyle.Font = null;
+            TransactionTbl.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty;
+            TransactionTbl.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty;
+            TransactionTbl.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty;
+            TransactionTbl.ThemeStyle.BackColor = Color.White;
+            TransactionTbl.ThemeStyle.GridColor = Color.FromArgb(231, 229, 255);
+            TransactionTbl.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(100, 88, 255);
+            TransactionTbl.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None;
+            TransactionTbl.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 9F);
+            TransactionTbl.ThemeStyle.HeaderStyle.ForeColor = Color.White;
+            TransactionTbl.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            TransactionTbl.ThemeStyle.HeaderStyle.Height = 40;
+            TransactionTbl.ThemeStyle.ReadOnly = false;
+            TransactionTbl.ThemeStyle.RowsStyle.BackColor = Color.White;
+            TransactionTbl.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
+            TransactionTbl.ThemeStyle.RowsStyle.Font = new Font("Segoe UI", 9F);
+            TransactionTbl.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(71, 69, 94);
+            TransactionTbl.ThemeStyle.RowsStyle.Height = 29;
+            TransactionTbl.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            TransactionTbl.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
             // 
             // label15
             // 
@@ -631,22 +647,22 @@
             label15.TabIndex = 20;
             label15.Text = "Transfer Money";
             // 
-            // guna2ComboBox1
+            // AccountCb
             // 
-            guna2ComboBox1.BackColor = Color.Transparent;
-            guna2ComboBox1.CustomizableEdges = customizableEdges13;
-            guna2ComboBox1.DrawMode = DrawMode.OwnerDrawFixed;
-            guna2ComboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
-            guna2ComboBox1.FocusedColor = Color.FromArgb(94, 148, 255);
-            guna2ComboBox1.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2ComboBox1.Font = new Font("Segoe UI", 10F);
-            guna2ComboBox1.ForeColor = Color.FromArgb(68, 88, 112);
-            guna2ComboBox1.ItemHeight = 30;
-            guna2ComboBox1.Location = new Point(943, 369);
-            guna2ComboBox1.Name = "guna2ComboBox1";
-            guna2ComboBox1.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            guna2ComboBox1.Size = new Size(212, 36);
-            guna2ComboBox1.TabIndex = 21;
+            AccountCb.BackColor = Color.Transparent;
+            AccountCb.CustomizableEdges = customizableEdges31;
+            AccountCb.DrawMode = DrawMode.OwnerDrawFixed;
+            AccountCb.DropDownStyle = ComboBoxStyle.DropDownList;
+            AccountCb.FocusedColor = Color.FromArgb(94, 148, 255);
+            AccountCb.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            AccountCb.Font = new Font("Segoe UI", 10F);
+            AccountCb.ForeColor = Color.FromArgb(68, 88, 112);
+            AccountCb.ItemHeight = 30;
+            AccountCb.Location = new Point(943, 369);
+            AccountCb.Name = "AccountCb";
+            AccountCb.ShadowDecoration.CustomizableEdges = customizableEdges32;
+            AccountCb.Size = new Size(212, 36);
+            AccountCb.TabIndex = 21;
             // 
             // label16
             // 
@@ -659,26 +675,26 @@
             label16.TabIndex = 22;
             label16.Text = "Amount in Rs.";
             // 
-            // guna2TextBox1
+            // AmountTb
             // 
-            guna2TextBox1.CustomizableEdges = customizableEdges15;
-            guna2TextBox1.DefaultText = "";
-            guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox1.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox1.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox1.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox1.Font = new Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2TextBox1.ForeColor = Color.Black;
-            guna2TextBox1.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox1.Location = new Point(943, 452);
-            guna2TextBox1.Margin = new Padding(3, 4, 3, 4);
-            guna2TextBox1.Name = "guna2TextBox1";
-            guna2TextBox1.PlaceholderText = "";
-            guna2TextBox1.SelectedText = "";
-            guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            guna2TextBox1.Size = new Size(212, 35);
-            guna2TextBox1.TabIndex = 23;
+            AmountTb.CustomizableEdges = customizableEdges33;
+            AmountTb.DefaultText = "";
+            AmountTb.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            AmountTb.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            AmountTb.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            AmountTb.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            AmountTb.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            AmountTb.Font = new Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            AmountTb.ForeColor = Color.Black;
+            AmountTb.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            AmountTb.Location = new Point(943, 452);
+            AmountTb.Margin = new Padding(3, 4, 3, 4);
+            AmountTb.Name = "AmountTb";
+            AmountTb.PlaceholderText = "";
+            AmountTb.SelectedText = "";
+            AmountTb.ShadowDecoration.CustomizableEdges = customizableEdges34;
+            AmountTb.Size = new Size(212, 35);
+            AmountTb.TabIndex = 23;
             // 
             // label17
             // 
@@ -691,51 +707,52 @@
             label17.TabIndex = 24;
             label17.Text = "Message";
             // 
-            // textBox1
+            // MessageTb
             // 
-            textBox1.Font = new Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox1.Location = new Point(943, 536);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(212, 127);
-            textBox1.TabIndex = 25;
+            MessageTb.Font = new Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            MessageTb.Location = new Point(943, 536);
+            MessageTb.Multiline = true;
+            MessageTb.Name = "MessageTb";
+            MessageTb.Size = new Size(212, 127);
+            MessageTb.TabIndex = 25;
             // 
-            // guna2Button6
+            // TransferBtn
             // 
-            guna2Button6.BorderRadius = 10;
-            guna2Button6.CustomizableEdges = customizableEdges17;
-            guna2Button6.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button6.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button6.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button6.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button6.FillColor = Color.Teal;
-            guna2Button6.Font = new Font("Century Gothic", 11F, FontStyle.Bold);
-            guna2Button6.ForeColor = Color.White;
-            guna2Button6.Location = new Point(943, 682);
-            guna2Button6.Name = "guna2Button6";
-            guna2Button6.ShadowDecoration.CustomizableEdges = customizableEdges18;
-            guna2Button6.Size = new Size(212, 39);
-            guna2Button6.TabIndex = 15;
-            guna2Button6.Text = "Transfer Money";
+            TransferBtn.BorderRadius = 10;
+            TransferBtn.CustomizableEdges = customizableEdges35;
+            TransferBtn.DisabledState.BorderColor = Color.DarkGray;
+            TransferBtn.DisabledState.CustomBorderColor = Color.DarkGray;
+            TransferBtn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            TransferBtn.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            TransferBtn.FillColor = Color.Teal;
+            TransferBtn.Font = new Font("Century Gothic", 11F, FontStyle.Bold);
+            TransferBtn.ForeColor = Color.White;
+            TransferBtn.Location = new Point(943, 682);
+            TransferBtn.Name = "TransferBtn";
+            TransferBtn.ShadowDecoration.CustomizableEdges = customizableEdges36;
+            TransferBtn.Size = new Size(212, 39);
+            TransferBtn.TabIndex = 15;
+            TransferBtn.Text = "Transfer Money";
+            TransferBtn.Click += TransferBtn_Click;
             // 
             // Dashboard
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1172, 733);
-            Controls.Add(guna2Button6);
-            Controls.Add(textBox1);
+            Controls.Add(TransferBtn);
+            Controls.Add(MessageTb);
             Controls.Add(label17);
-            Controls.Add(guna2TextBox1);
+            Controls.Add(AmountTb);
             Controls.Add(label16);
-            Controls.Add(guna2ComboBox1);
+            Controls.Add(AccountCb);
             Controls.Add(label15);
-            Controls.Add(guna2DataGridView1);
+            Controls.Add(TransactionTbl);
             Controls.Add(label14);
             Controls.Add(panel3);
             Controls.Add(panel2);
             Controls.Add(label3);
-            Controls.Add(label2);
+            Controls.Add(UserNameLbl);
             Controls.Add(guna2Panel1);
             Name = "Dashboard";
             StartPosition = FormStartPosition.CenterScreen;
@@ -757,7 +774,7 @@
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
-            ((System.ComponentModel.ISupportInitialize)guna2DataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)TransactionTbl).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -781,16 +798,16 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button4;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse3;
-        private Label label2;
+        private Label UserNameLbl;
         private Label label3;
         private Panel panel2;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse4;
         private Panel panel3;
-        private Label label5;
+        private Label AmountLbl;
         private Label label4;
         private PictureBox pictureBox7;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse5;
-        private Label label6;
+        private Label AcNumberLbl;
         private Panel panel4;
         private Label label11;
         private Label label10;
@@ -805,13 +822,13 @@
         private Label label13;
         private Panel panel7;
         private Label label14;
-        private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
+        private Guna.UI2.WinForms.Guna2DataGridView TransactionTbl;
         private Label label15;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
+        private Guna.UI2.WinForms.Guna2ComboBox AccountCb;
         private Label label16;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private Guna.UI2.WinForms.Guna2TextBox AmountTb;
         private Label label17;
-        private TextBox textBox1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button6;
+        private TextBox MessageTb;
+        private Guna.UI2.WinForms.Guna2Button TransferBtn;
     }
 }

@@ -18,6 +18,10 @@ namespace BankApp
             Con = new Functions();
         }
         Functions Con;
+        public static string AcName;
+        public static string AcNumber;
+        public static int Balance;
+
         private void LoginBtn_Click(object sender, EventArgs e)
         {
             if (RoleCb.SelectedIndex == -1 || UsernameTb.Text == "" || PasswordTb.Text == "")
@@ -42,7 +46,7 @@ namespace BankApp
             }
             else
             {
-                string Query = "select AcNumber,AcName,SecretCode from AccountTbl where AcName='{0}' and SecretCode='{1}'";
+                string Query = "select AcNumber,AcName,Balance,SecretCode from AccountTbl where AcName='{0}' and SecretCode='{1}'";
                 Query = string.Format(Query, UsernameTb.Text, PasswordTb.Text);
                 DataTable dt = Con.GetData(Query);
                 if (dt.Rows.Count == 0)
@@ -51,6 +55,9 @@ namespace BankApp
                 }
                 else
                 {
+                    AcName = dt.Rows[0][1].ToString();
+                    AcNumber = dt.Rows[0][0].ToString();
+                    Balance = Convert.ToInt32(dt.Rows[0][2].ToString());
                     Dashboard obj = new Dashboard();
                     obj.Show();
                     this.Hide();
