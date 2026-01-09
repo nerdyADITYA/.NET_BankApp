@@ -18,6 +18,7 @@ namespace BankApp
             AccountsList.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             AccountsList.MultiSelect = false;
             Con = new Functions();
+            //DashboardBtn.Enabled = false;
             ShowAccounts();
         }
 
@@ -162,6 +163,20 @@ namespace BankApp
         private void LogoutBtn_Click(object sender, EventArgs e)
         {
             Login obj = new Login();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void DashboardBtn_Click(object sender, EventArgs e)
+        {
+            Dashboard obj = new Dashboard();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void UsersBtn_Click(object sender, EventArgs e)
+        {
+            Users obj = new Users();
             obj.Show();
             this.Hide();
         }

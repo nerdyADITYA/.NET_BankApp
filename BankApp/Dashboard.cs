@@ -11,18 +11,20 @@ namespace BankApp
             InitializeComponent();
             Con = new Functions();
 
+            // Logged-in user data
             Balance = Convert.ToInt32(Login.Balance);
-            AmountLbl.Text = "₹" + Balance;
-            UserNameLbl.Text = "Hello, " + Login.AcName;
-
             SAccountName = Login.AcName;
             SAccountNumber = Login.AcNumber;
 
-            string accNo = Login.AcNumber;
+            AmountLbl.Text = "₹" + Balance;
+            UserNameLbl.Text = "Hello, " + SAccountName;
+
+            string accNo = SAccountNumber;
             AcNumberLbl.Text = "**** **** **** " + accNo.Substring(accNo.Length - 4);
 
             GetAccounts();
             ShowTransactions();
+            LoadIncomeExpense();
         }
 
         Functions Con;
@@ -53,12 +55,59 @@ namespace BankApp
         private void ShowTransactions()
         {
             string query =
-                "SELECT RecieverName AS Reciever, Amount AS [Money Sent], " +
-                "TrType AS [Operation], TrDate AS [Date], Message " +
-                "FROM TransactionTbl";
+                "SELECT " +
+                "CASE " +
+                "   WHEN SenderAcNo = '{0}' THEN 'Sent' " +
+                "   WHEN RecieverAcNo = '{0}' THEN 'Received' " +
+                "END AS [Transaction Type], " +
+                "CASE " +
+                "   WHEN SenderAcNo = '{0}' THEN RecieverName " +
+                "   ELSE SenderName " +
+                "END AS [Account], " +
+                "Amount AS Amount, " +
+                "TrDate AS [Date], " +
+                "Message " +
+                "FROM TransactionTbl " +
+                "WHERE SenderAcNo = '{0}' OR RecieverAcNo = '{0}' " +
+                "ORDER BY TrDate DESC";
 
+            query = string.Format(query, SAccountNumber);
             TransactionTbl.DataSource = Con.GetData(query);
         }
+
+        // ================= INCOME / EXPENSE =================
+
+        private void LoadIncomeExpense()
+        {
+            try
+            {
+                // EXPENSE (Money Sent)
+                string expenseQuery =
+                    "SELECT ISNULL(SUM(Amount),0) FROM TransactionTbl " +
+                    "WHERE SenderAcNo = '{0}'";
+
+                expenseQuery = string.Format(expenseQuery, SAccountNumber);
+                DataTable expDt = Con.GetData(expenseQuery);
+                int totalExpense = Convert.ToInt32(expDt.Rows[0][0]);
+                ExpenseLbl.Text = "₹" + totalExpense;
+
+                // INCOME (Money Received)
+                string incomeQuery =
+                    "SELECT ISNULL(SUM(Amount),0) FROM TransactionTbl " +
+                    "WHERE RecieverAcNo = '{0}'";
+
+                incomeQuery = string.Format(incomeQuery, SAccountNumber);
+                DataTable incDt = Con.GetData(incomeQuery);
+                int totalIncome = Convert.ToInt32(incDt.Rows[0][0]);
+                IncomeLbl.Text = "₹" + totalIncome;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        // ================= LOGOUT =================
 
         private void LogoutBtn_Click(object sender, EventArgs e)
         {
@@ -160,13 +209,20 @@ namespace BankApp
                 UpdateBalanceReceiver(amount);
 
                 MessageBox.Show("Transfer Successful !!!");
+
                 ClearFields();
                 ShowTransactions();
+                LoadIncomeExpense();
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

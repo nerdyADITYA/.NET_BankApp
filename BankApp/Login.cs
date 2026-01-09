@@ -21,48 +21,76 @@ namespace BankApp
         public static string AcName;
         public static string AcNumber;
         public static int Balance;
-
         private void LoginBtn_Click(object sender, EventArgs e)
         {
             if (RoleCb.SelectedIndex == -1 || UsernameTb.Text == "" || PasswordTb.Text == "")
             {
                 MessageBox.Show("Missing Data !!!");
+                return;
             }
-            else if (RoleCb.SelectedIndex == 0)
+
+            string selectedRole = RoleCb.Text.Trim().ToLower();
+
+            string query =
+                "SELECT UId, UName, UPassword, URole " +
+                "FROM Users " +
+                "WHERE UName = '{0}' AND UPassword = '{1}'";
+
+            query = string.Format(query, UsernameTb.Text, PasswordTb.Text);
+            DataTable dt = Con.GetData(query);
+
+            if (dt.Rows.Count == 0)
             {
-                string Query = "select UId,UName,UPassword from Users where UName='{0}' and UPassword='{1}'";
-                Query = string.Format(Query, UsernameTb.Text, PasswordTb.Text);
-                DataTable dt = Con.GetData(Query);
-                if (dt.Rows.Count == 0)
+                MessageBox.Show("Wrong Username or Password");
+                return;
+            }
+
+            string dbRole = dt.Rows[0]["URole"].ToString().Trim().ToLower();
+
+            // 🔐 Role validation
+            if (selectedRole != dbRole)
+            {
+                MessageBox.Show("Role does not match your account");
+                return;
+            }
+
+            // ✅ ROLE MATCHED → REDIRECT
+            if (dbRole == "admin")
+            {
+                Accounts obj = new Accounts();
+                obj.Show();
+                this.Hide();
+            }
+            else if (dbRole == "client")
+            {
+                // Load client account details
+                string accQuery =
+                    "SELECT AcNumber, AcName, Balance " +
+                    "FROM AccountTbl WHERE AcName = '{0}'";
+
+                accQuery = string.Format(accQuery, UsernameTb.Text);
+                DataTable accDt = Con.GetData(accQuery);
+
+                if (accDt.Rows.Count == 0)
                 {
-                    MessageBox.Show("Wrong Username or Password");
+                    MessageBox.Show("Account not found for this user");
+                    return;
                 }
-                else
-                {
-                    Accounts obj = new Accounts();
-                    obj.Show();
-                    this.Hide();
-                }
+
+                AcNumber = accDt.Rows[0]["AcNumber"].ToString();
+                AcName = accDt.Rows[0]["AcName"].ToString();
+                Balance = Convert.ToInt32(accDt.Rows[0]["Balance"]);
+
+                Dashboard obj = new Dashboard();
+                obj.Show();
+                this.Hide();
             }
             else
             {
-                string Query = "select AcNumber,AcName,Balance,SecretCode from AccountTbl where AcName='{0}' and SecretCode='{1}'";
-                Query = string.Format(Query, UsernameTb.Text, PasswordTb.Text);
-                DataTable dt = Con.GetData(Query);
-                if (dt.Rows.Count == 0)
-                {
-                    MessageBox.Show("Wrong Username or Password");
-                }
-                else
-                {
-                    AcName = dt.Rows[0][1].ToString();
-                    AcNumber = dt.Rows[0][0].ToString();
-                    Balance = Convert.ToInt32(dt.Rows[0][2].ToString());
-                    Dashboard obj = new Dashboard();
-                    obj.Show();
-                    this.Hide();
-                }
+                MessageBox.Show("Invalid role assigned to user");
             }
         }
+
+
     }
 }

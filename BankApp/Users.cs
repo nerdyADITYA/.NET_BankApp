@@ -136,5 +136,18 @@ namespace BankApp
                 }
             }
         }
+
+        private void AccountsBtn_Click(object sender, EventArgs e)
+        {
+            Accounts obj = new Accounts();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void LogoutBtn_Click(object sender, EventArgs e)
+        {
+            new Login().Show();
+            this.Hide();
+        }
     }
 }

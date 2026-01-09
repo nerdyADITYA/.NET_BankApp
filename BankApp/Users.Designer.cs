@@ -82,12 +82,11 @@
             guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(components);
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             pictureBox6 = new PictureBox();
-            guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
+            LogoutBtn = new Guna.UI2.WinForms.Guna2Button();
             pictureBox5 = new PictureBox();
             guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             panel1 = new Panel();
-            pictureBox4 = new PictureBox();
-            guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
+            AccountsBtn = new Guna.UI2.WinForms.Guna2Button();
             pictureBox3 = new PictureBox();
             guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             pictureBox2 = new PictureBox();
@@ -101,7 +100,6 @@
             guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -415,12 +413,11 @@
             // 
             guna2Panel1.BackColor = Color.White;
             guna2Panel1.Controls.Add(pictureBox6);
-            guna2Panel1.Controls.Add(guna2Button5);
+            guna2Panel1.Controls.Add(LogoutBtn);
             guna2Panel1.Controls.Add(pictureBox5);
             guna2Panel1.Controls.Add(guna2Button4);
             guna2Panel1.Controls.Add(panel1);
-            guna2Panel1.Controls.Add(pictureBox4);
-            guna2Panel1.Controls.Add(guna2Button3);
+            guna2Panel1.Controls.Add(AccountsBtn);
             guna2Panel1.Controls.Add(pictureBox3);
             guna2Panel1.Controls.Add(guna2Button2);
             guna2Panel1.Controls.Add(pictureBox2);
@@ -445,24 +442,25 @@
             pictureBox6.TabIndex = 14;
             pictureBox6.TabStop = false;
             // 
-            // guna2Button5
+            // LogoutBtn
             // 
-            guna2Button5.BorderRadius = 10;
-            guna2Button5.CustomizableEdges = customizableEdges15;
-            guna2Button5.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button5.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button5.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button5.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button5.FillColor = Color.Teal;
-            guna2Button5.Font = new Font("Century Gothic", 10.2F, FontStyle.Bold);
-            guna2Button5.ForeColor = Color.White;
-            guna2Button5.Location = new Point(13, 614);
-            guna2Button5.Name = "guna2Button5";
-            guna2Button5.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            guna2Button5.Size = new Size(208, 50);
-            guna2Button5.TabIndex = 13;
-            guna2Button5.Text = "Logout";
-            guna2Button5.TextAlign = HorizontalAlignment.Right;
+            LogoutBtn.BorderRadius = 10;
+            LogoutBtn.CustomizableEdges = customizableEdges15;
+            LogoutBtn.DisabledState.BorderColor = Color.DarkGray;
+            LogoutBtn.DisabledState.CustomBorderColor = Color.DarkGray;
+            LogoutBtn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            LogoutBtn.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            LogoutBtn.FillColor = Color.Teal;
+            LogoutBtn.Font = new Font("Century Gothic", 10.2F, FontStyle.Bold);
+            LogoutBtn.ForeColor = Color.White;
+            LogoutBtn.Location = new Point(13, 614);
+            LogoutBtn.Name = "LogoutBtn";
+            LogoutBtn.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            LogoutBtn.Size = new Size(208, 50);
+            LogoutBtn.TabIndex = 13;
+            LogoutBtn.Text = "Logout";
+            LogoutBtn.TextAlign = HorizontalAlignment.Right;
+            LogoutBtn.Click += LogoutBtn_Click;
             // 
             // pictureBox5
             // 
@@ -502,33 +500,23 @@
             panel1.Size = new Size(220, 5);
             panel1.TabIndex = 10;
             // 
-            // pictureBox4
+            // AccountsBtn
             // 
-            pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
-            pictureBox4.Location = new Point(8, 372);
-            pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(59, 50);
-            pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox4.TabIndex = 9;
-            pictureBox4.TabStop = false;
-            // 
-            // guna2Button3
-            // 
-            guna2Button3.CustomizableEdges = customizableEdges19;
-            guna2Button3.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button3.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button3.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button3.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button3.FillColor = Color.White;
-            guna2Button3.Font = new Font("Century Gothic", 10.2F, FontStyle.Bold);
-            guna2Button3.ForeColor = Color.Teal;
-            guna2Button3.Location = new Point(14, 372);
-            guna2Button3.Name = "guna2Button3";
-            guna2Button3.ShadowDecoration.CustomizableEdges = customizableEdges20;
-            guna2Button3.Size = new Size(208, 50);
-            guna2Button3.TabIndex = 8;
-            guna2Button3.Text = "My Accounts";
-            guna2Button3.TextAlign = HorizontalAlignment.Right;
+            AccountsBtn.CustomizableEdges = customizableEdges19;
+            AccountsBtn.DisabledState.BorderColor = Color.DarkGray;
+            AccountsBtn.DisabledState.CustomBorderColor = Color.DarkGray;
+            AccountsBtn.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            AccountsBtn.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            AccountsBtn.FillColor = Color.White;
+            AccountsBtn.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            AccountsBtn.ForeColor = Color.Teal;
+            AccountsBtn.Location = new Point(14, 372);
+            AccountsBtn.Name = "AccountsBtn";
+            AccountsBtn.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            AccountsBtn.Size = new Size(208, 50);
+            AccountsBtn.TabIndex = 8;
+            AccountsBtn.Text = "Manage Accounts";
+            AccountsBtn.Click += AccountsBtn_Click;
             // 
             // pictureBox3
             // 
@@ -657,7 +645,6 @@
             guna2Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
@@ -687,12 +674,11 @@
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private PictureBox pictureBox6;
-        private Guna.UI2.WinForms.Guna2Button guna2Button5;
+        private Guna.UI2.WinForms.Guna2Button LogoutBtn;
         private PictureBox pictureBox5;
         private Guna.UI2.WinForms.Guna2Button guna2Button4;
         private Panel panel1;
-        private PictureBox pictureBox4;
-        private Guna.UI2.WinForms.Guna2Button guna2Button3;
+        private Guna.UI2.WinForms.Guna2Button AccountsBtn;
         private PictureBox pictureBox3;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private PictureBox pictureBox2;
